@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+scikit-learn
+xgboost
+matplotlib
+shap
+
+# TENT / raw-signal CNN section only.
+# Install the build matching your CUDA version from https://pytorch.org
+torch
+
+# Used by the earlier adaptation experiments in version-history
+tensorflow

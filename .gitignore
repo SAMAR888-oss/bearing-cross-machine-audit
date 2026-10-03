@@ -1,0 +1,24 @@
+# Datasets are not committed: large, and distributed by their owners
+data/*
+!data/README.md
+*.mat
+*.npz
+
+# Model checkpoints
+*.pt
+*.pth
+*.h5
+*.keras
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
